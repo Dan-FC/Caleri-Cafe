@@ -1,13 +1,31 @@
-body {
-    font-family: Arial, sans-serif;
+* {
+    outline: 1px solid red; 
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
+    font-family: Arial, sans-serif;
+
+ 
+  }
+
 
 .header {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     background-image: url('cafeteria.jpg'); /* Asegúrate de tener una imagen */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+
+
+    align-items: center;
+    text-align: center;
+    
+    /* background-image: url('cafeteria.jpg'); 
     background-size: cover;
     background-position: center;
     color: white;
@@ -16,17 +34,26 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; */
 }
 
 .navbar {
-    position: absolute;
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+
+    /* position: absolute;
     top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6); */
 }
 
 .logo {
@@ -50,6 +77,9 @@ body {
     font-weight: bold;
 }
 
+.hero {
+    margin-top: 100px;
+}
 .hero h1 {
     font-size: 48px;
     margin-bottom: 20px;
