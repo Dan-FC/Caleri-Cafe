@@ -1,0 +1,11 @@
+.orange-700 {
+    background-color: #fb923c; /* Valor hexadecimal de $orange-700 */
+    color: white; /* Opcional: para asegurar que el texto sea visible */
+    border-color: #fb923c; /* Para que el borde coincida con el fondo */
+  }
+  
+  .orange-700:hover {
+    background-color: #f97316; /* Un tono más oscuro para el hover */
+    border-color: #f97316;
+  }
+      
